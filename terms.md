@@ -5,7 +5,7 @@ title: Terms of Service
 
 # Terms of Service
 
-**Last updated:** 2026-10-08
+**Last updated:** 2026-10-14
 
 These Terms of Service govern your use of the **PickCharge** app. By
 using the App, you agree to these Terms. If you don't agree, please
@@ -14,15 +14,34 @@ don't use the App.
 ## 1. What the App does
 
 PickCharge helps you find and compare electric vehicle charging stations
-in Portugal: locations, live availability, connector types, prices, and,
+in Portugal and Spain: locations, live availability, connector types, prices, and,
 for your selected vehicle, estimated reachability, cost, and charging
-time. The App has no accounts. Access is subscription-based, as
-described in the next section.
+time. The App has no accounts. The App is free to use; some features
+require a PickCharge Premium subscription, as described in the next
+section.
 
-## 2. Subscription and billing
+## 2. Free features, Premium, and billing
 
-PickCharge requires an active subscription to use. There is no free
-tier. Subscriptions are billed and managed entirely through Google Play:
+**Free.** The map of charging stations with their prices and live
+availability, station search, station details, saving favourite
+stations, price statistics, vehicle and battery setup, and sending
+feedback are free and don't require a subscription.
+
+**PickCharge Premium** adds the features that depend on your vehicle,
+battery and electricity supplier: recommendations of the closest,
+cheapest, and fastest stations for your car, whether you can reach a
+station, estimated charging time, and the estimated final price of a
+charge with the supplier (CEME) plan you choose, plus push alerts when a
+busy charger frees up or a favourite station changes its price, and
+PickCharge on Android Auto. Only use the App in a car in ways the law
+allows: the driver should use the phone app only when parked. Alerts
+depend on the same public data as the rest of the App and on push
+delivery by Google, so one can arrive late or not at all; don't rely on
+an alert as the only way to find a charger. We may add features to Premium over time. If you don't
+subscribe, or your subscription ends, the free features keep working.
+
+Premium subscriptions are billed and managed entirely through Google
+Play:
 
 - **Plans:** monthly or annual, at the price shown in the App and in the
   Google Play listing at the time you subscribe. Google Play is the
@@ -41,8 +60,9 @@ tier. Subscriptions are billed and managed entirely through Google Play:
   process payments or hold your payment details ourselves.
 - **No sign-in required:** you don't need an account to subscribe. Your
   Google Play purchase is verified against Google's own records when the
-  App requests data, which is how access is granted or revoked. See the
-  [Privacy Policy](./privacy.html) for what that check involves.
+  App requests a Premium feature, which is how Premium access is granted
+  or revoked. See the
+  [Privacy Policy](./PRIVACY_POLICY.md) for what that check involves.
 
 ## 3. Estimates are estimates, not guarantees
 
@@ -55,13 +75,24 @@ real driving decision. You should understand their limits:
   operated on behalf of IMT. We don't control that data, and it can be
   incomplete, delayed, or wrong. A charger showing "available" may no
   longer be free by the time you arrive, and a listed price may have
-  changed.
+  changed. In Spain, station and price data comes from Mapa REVE, the
+  official map run by Red Eléctrica for the Spanish government; it covers
+  the chargers that report dynamic data, prices are refreshed about once
+  an hour, and there is no live availability.
+- **Final prices depend on supplier data we check monthly.** Supplier
+  (CEME) prices come from ERSE's public list of e-mobility offers and are
+  checked about once a month, so your supplier may have changed its price
+  since, or may apply discounts, fees or campaigns that aren't in that
+  list. Taxes and fees are applied as published at the time. Your
+  supplier's invoice is what you actually pay.
 - **Distance and reachability estimates use straight-line distance**,
   not actual road distance. Real driving distance can be meaningfully
   longer, especially in cities or hilly terrain.
-- **Cost and charging-time estimates use average power and consumption
-  figures**, not your vehicle's real-time charging curve. Actual cost
-  and time can differ from the estimate.
+- **Cost and charging-time estimates use typical figures**: average
+  consumption, and a typical fast-charging curve for your car model
+  rather than its real-time behaviour, which depends on temperature,
+  battery condition and the charger. Actual cost and time can differ
+  from the estimate.
 - **Always leave a safety margin.** Don't rely on the App's estimated
   battery level on arrival as a guarantee you'll reach a charger. Factor
   in your own judgment, driving style, weather, and terrain.
@@ -75,21 +106,22 @@ unable to reach a charging station.
 The App requests your device location and stores a vehicle profile,
 consisting of your vehicle model and battery percentage, to give you
 personalized results. That information stays on your device and isn't
-stored on our servers. See the [Privacy Policy](./privacy.html) for full
+stored on our servers. See the [Privacy Policy](./PRIVACY_POLICY.md) for full
 details on what's collected and how it's used.
 
 ## 5. Acceptable use
 
 Don't use the App to scrape, resell, or redistribute the underlying
 station data at scale, attempt to disrupt or overload our backend
-service, share your subscription access in a way Google Play's terms
+service, share your Premium access in a way Google Play's terms
 don't permit, or reverse-engineer the App beyond what's permitted by
 applicable law.
 
 ## 6. Third-party services
 
 The App displays map tiles from OpenStreetMap and charging station data
-sourced from the public feeds of MOBI.E and IMT, and can hand off
+sourced from the public feeds of MOBI.E and IMT (Portugal) and Red
+Eléctrica's Mapa REVE (Spain), and can hand off
 navigation to Google Maps or Waze. Your use of those services is also
 subject to their own terms, where applicable.
 
